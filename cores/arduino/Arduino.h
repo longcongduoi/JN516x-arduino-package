@@ -155,7 +155,6 @@ typedef enum _ETCChannel
 #define PIN_ATTR_PWM           (1UL<<3)
 #define PIN_ATTR_TIMER         (1UL<<4)
 
-#if 0
 /* Types used for the tables below */
 typedef struct _PinDescription
 {
@@ -173,7 +172,6 @@ typedef struct _PinDescription
 
 /* Pins table to be instanciated into variant.cpp */
 extern const PinDescription g_APinDescription[] ;
-#endif
 
 #ifdef __cplusplus
 } // extern "C"
@@ -198,7 +196,6 @@ extern const PinDescription g_APinDescription[] ;
 
 #include "watchdog.h"
 
-#if 0
 // USB Device
 #define USB_VID            0x2341 // arduino LLC vid
 #define USB_PID_LEONARDO   0x0034
@@ -207,6 +204,5 @@ extern const PinDescription g_APinDescription[] ;
 #include "USB/USBDesc.h"
 #include "USB/USBCore.h"
 #include "USB/USBAPI.h"
-#endif
 
 #endif // Arduino_h
