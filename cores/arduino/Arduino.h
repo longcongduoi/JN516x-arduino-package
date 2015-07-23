@@ -196,6 +196,8 @@ extern const PinDescription g_APinDescription[] ;
 #include "wiring_shift.h"
 #include "WInterrupts.h"
 
+#include "watchdog.h"
+
 #if 0
 // USB Device
 #define USB_VID            0x2341 // arduino LLC vid

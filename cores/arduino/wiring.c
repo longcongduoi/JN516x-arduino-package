@@ -97,9 +97,6 @@ void init()
 
 	u32AHI_Init();
 
-	//WatchDog
-	vAHI_WatchdogStop();
-
 	//SysCtrl
 	vAHI_SysCtrlRegisterCallback(sysctrl_callback);
 
