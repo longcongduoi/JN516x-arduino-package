@@ -22,7 +22,6 @@
   $Id$
 */
 
-#define ARDUINO_MAIN
 #include "Arduino.h"
 
 #include "wiring_private.h"
